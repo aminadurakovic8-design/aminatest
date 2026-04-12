@@ -127,6 +127,15 @@ h4 {
   font-size: clamp(2.6rem, 4.2vw, 3.5rem);
 }
 
+.profile-photo {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%; /* makes it round */
+  margin: 20px 0;
+  display: block;
+}
+
 .panel-role {
   color: var(--forest);
   font-size: 1.02rem;
