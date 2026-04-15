@@ -43,8 +43,10 @@ body.page-sub {
 }
 
 img {
-  display: block;
-  max-width: 100%;
+  image-rendering: auto;
+  -webkit-backface-visibility: hidden;
+  transform: translateZ(0);
+}
 }
 
 a {
